@@ -29,24 +29,27 @@ int board[BOARD_ROW][BOARD_COLUMN];
 
 -(instancetype)init {
     self = [super init];
-    for(int i = 0; i < BOARD_ROW; i++) {
-        for(int j = 0; j < BOARD_COLUMN; j++) {
-            board[i][j] = PIECE_EMPTY;
+    
+    if (self) {
+        for(int i = 0; i < BOARD_ROW; i++) {
+            for(int j = 0; j < BOARD_COLUMN; j++) {
+                board[i][j] = PIECE_EMPTY;
+            }
         }
     }
+    
     return self;
 }
 
 - (void)addPiece:(Piece *)piece; {
-    /*  if piece is RED add 1 to board, if piece is BLACK add 2 to board  */
+    /*  if piece is WHITE add 1 to board, if piece is BLACK add 2 to board  */
     if(piece) {
-        if(piece.playerColor == RED) {
-            board[piece.row][piece.column] = PIECE_RED;
+        if(piece.playerColor == WHITE) {
+            board[piece.row][piece.column] = PIECE_WHITE;
         }
         else if(piece.playerColor == BLACK) {
             board[piece.row][piece.column] = PIECE_BLACK;
         }
-
     }
 }
 

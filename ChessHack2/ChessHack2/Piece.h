@@ -14,12 +14,12 @@
 @interface Piece : NSObject
 @property NSInteger row;
 @property NSInteger column;
-
+/*
 @property NSInteger minX;
 @property NSInteger maxX;
 @property NSInteger minY;
 @property NSInteger maxY;
-
+*/
 @property (nonatomic, weak) id<BoardProvider> boardProvider;
 @property PlayerColor playerColor;
 

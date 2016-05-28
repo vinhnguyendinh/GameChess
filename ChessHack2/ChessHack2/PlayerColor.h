@@ -10,7 +10,7 @@
 #define PlayerType_h
 
 typedef enum PlayerColor {
-    RED,
+    WHITE,
     BLACK
 } PlayerColor;
 

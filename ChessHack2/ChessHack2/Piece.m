@@ -21,11 +21,12 @@
         self.row = x;
         self.column = y;
         self.playerColor = color;
+        /*
         self.minX = 0;
         self.maxX = BOARD_COLUMN - 1;
         self.minY = 0;
         self.maxY = BOARD_ROW - 1;
-        
+        */
         [self addPieceToBoard];
     }
     
@@ -39,6 +40,7 @@
 - (void)removePieceFromBoard; {
     [[Map shareInstance]removePiece:self];
 }
+
 - (int)getCellFromBoard:(NSInteger)row Column:(NSInteger)column; {
     return [[Map shareInstance]getCellWithRow:row Column:column];
 }
@@ -47,18 +49,22 @@
 - (BOOL)checkMoveWithRow:(NSInteger)nextRow Column:(NSInteger)nextColumn; {
     
     /*  Check if next position is out of board */
+    
+    /*
     if(nextRow < self.minX  || nextRow > self.maxX) {
         return NO;
     }
     if(nextColumn < self.minY || nextColumn > self.maxY) {
         return NO;
     }
+     */
+    
     if(nextRow == self.row && nextColumn == self.column) {
         return NO;
     }
     
     
-    if(_playerColor == RED && [self getCellFromBoard:nextRow Column:nextColumn] == 1) {
+    if(_playerColor == WHITE && [self getCellFromBoard:nextRow Column:nextColumn] == 1) {
         return NO;
     }
     

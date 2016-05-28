@@ -1,9 +1,9 @@
 //
 //  main.m
-//  ChessHack2
+//  ChineseChess
 //
-//  Created by Nguyen Duc Tai on 5/28/16.
-//  Copyright © 2016 TechKid. All rights reserved.
+//  Created by Mr.Vu on 5/22/16.
+//  Copyright © 2016 Mr.Vu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

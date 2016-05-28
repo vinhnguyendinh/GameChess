@@ -11,18 +11,21 @@
 
 @implementation King
 
-- (id) initAdvisorWithX:(NSInteger)x Y:(NSInteger)y MinY:(NSInteger)minY MaxY:(NSInteger)maxY Color:(PlayerColor)color; {
+/*
+- (id) initAdvisorWithX:(NSInteger)x Y:(NSInteger)y Color:(PlayerColor)color; {
     self = [super initWithX:x Y:y Color:color];
     if(self) {
+        
         self.maxY = maxY;
         self.minY = minY;
         self.minX = MIN_X;
         self.maxY = MAX_X;
+        
     }
     
     return self;
 }
-
+*/
 
 
 
