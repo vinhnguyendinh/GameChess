@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFD576941CF9BFBE00D495FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576931CF9BFBE00D495FD /* main.m */; };
+		CFD576971CF9BFBE00D495FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576961CF9BFBE00D495FD /* AppDelegate.m */; };
+		CFD5769A1CF9BFBE00D495FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576991CF9BFBE00D495FD /* ViewController.m */; };
+		CFD5769D1CF9BFBE00D495FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD5769B1CF9BFBE00D495FD /* Main.storyboard */; };
+		CFD576A01CF9BFBE00D495FD /* ChessHack2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFD5769E1CF9BFBE00D495FD /* ChessHack2.xcdatamodeld */; };
+		CFD576A21CF9BFBE00D495FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD576A11CF9BFBE00D495FD /* Assets.xcassets */; };
+		CFD576A51CF9BFBE00D495FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD576A31CF9BFBE00D495FD /* LaunchScreen.storyboard */; };
+		CFD576C11CF9C04C00D495FD /* Advisor.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576AD1CF9C04C00D495FD /* Advisor.m */; };
+		CFD576C21CF9C04C00D495FD /* Cannon.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576B11CF9C04C00D495FD /* Cannon.m */; };
+		CFD576C31CF9C04C00D495FD /* Chariot.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576B31CF9C04C00D495FD /* Chariot.m */; };
+		CFD576C41CF9C04C00D495FD /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576B51CF9C04C00D495FD /* GameObject.m */; };
+		CFD576C51CF9C04C00D495FD /* Horse.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576B71CF9C04C00D495FD /* Horse.m */; };
+		CFD576C61CF9C04C00D495FD /* King.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576B91CF9C04C00D495FD /* King.m */; };
+		CFD576C71CF9C04C00D495FD /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576BB1CF9C04C00D495FD /* Map.m */; };
+		CFD576C81CF9C04C00D495FD /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576BD1CF9C04C00D495FD /* Piece.m */; };
+		CFD576C91CF9C04C00D495FD /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD576BF1CF9C04C00D495FD /* Player.m */; };
+		CFFFC5971CF9E8BD001AB39E /* Queen.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFFC5961CF9E8BD001AB39E /* Queen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFD5768F1CF9BFBE00D495FD /* ChessHack2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessHack2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD576931CF9BFBE00D495FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFD576951CF9BFBE00D495FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFD576961CF9BFBE00D495FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFD576981CF9BFBE00D495FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFD576991CF9BFBE00D495FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFD5769C1CF9BFBE00D495FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFD5769F1CF9BFBE00D495FD /* ChessHack2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChessHack2.xcdatamodel; sourceTree = "<group>"; };
+		CFD576A11CF9BFBE00D495FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD576A41CF9BFBE00D495FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFD576A61CF9BFBE00D495FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD576AC1CF9C04C00D495FD /* Advisor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Advisor.h; sourceTree = "<group>"; };
+		CFD576AD1CF9C04C00D495FD /* Advisor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Advisor.m; sourceTree = "<group>"; };
+		CFD576AE1CF9C04C00D495FD /* BoardConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardConfig.h; sourceTree = "<group>"; };
+		CFD576AF1CF9C04C00D495FD /* BoardProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardProvider.h; sourceTree = "<group>"; };
+		CFD576B01CF9C04C00D495FD /* Cannon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cannon.h; sourceTree = "<group>"; };
+		CFD576B11CF9C04C00D495FD /* Cannon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cannon.m; sourceTree = "<group>"; };
+		CFD576B21CF9C04C00D495FD /* Chariot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chariot.h; sourceTree = "<group>"; };
+		CFD576B31CF9C04C00D495FD /* Chariot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chariot.m; sourceTree = "<group>"; };
+		CFD576B41CF9C04C00D495FD /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		CFD576B51CF9C04C00D495FD /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
+		CFD576B61CF9C04C00D495FD /* Horse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horse.h; sourceTree = "<group>"; };
+		CFD576B71CF9C04C00D495FD /* Horse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horse.m; sourceTree = "<group>"; };
+		CFD576B81CF9C04C00D495FD /* King.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = King.h; sourceTree = "<group>"; };
+		CFD576B91CF9C04C00D495FD /* King.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = King.m; sourceTree = "<group>"; };
+		CFD576BA1CF9C04C00D495FD /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		CFD576BB1CF9C04C00D495FD /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		CFD576BC1CF9C04C00D495FD /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
+		CFD576BD1CF9C04C00D495FD /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
+		CFD576BE1CF9C04C00D495FD /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		CFD576BF1CF9C04C00D495FD /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		CFD576C01CF9C04C00D495FD /* PlayerColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerColor.h; sourceTree = "<group>"; };
+		CFFFC5951CF9E8BD001AB39E /* Queen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queen.h; sourceTree = "<group>"; };
+		CFFFC5961CF9E8BD001AB39E /* Queen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD5768C1CF9BFBE00D495FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD576861CF9BFBE00D495FD = {
+			isa = PBXGroup;
+			children = (
+				CFD576911CF9BFBE00D495FD /* ChessHack2 */,
+				CFD576901CF9BFBE00D495FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD576901CF9BFBE00D495FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD5768F1CF9BFBE00D495FD /* ChessHack2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD576911CF9BFBE00D495FD /* ChessHack2 */ = {
+			isa = PBXGroup;
+			children = (
+				CFD576B41CF9C04C00D495FD /* GameObject.h */,
+				CFD576B51CF9C04C00D495FD /* GameObject.m */,
+				CFD576CC1CF9C0F200D495FD /* Player */,
+				CFD576CB1CF9C0A800D495FD /* Piece */,
+				CFD576CA1CF9C08100D495FD /* Map */,
+				CFD576AE1CF9C04C00D495FD /* BoardConfig.h */,
+				CFD576AF1CF9C04C00D495FD /* BoardProvider.h */,
+				CFD576C01CF9C04C00D495FD /* PlayerColor.h */,
+				CFD576951CF9BFBE00D495FD /* AppDelegate.h */,
+				CFD576961CF9BFBE00D495FD /* AppDelegate.m */,
+				CFD576981CF9BFBE00D495FD /* ViewController.h */,
+				CFD576991CF9BFBE00D495FD /* ViewController.m */,
+				CFD5769B1CF9BFBE00D495FD /* Main.storyboard */,
+				CFD576A11CF9BFBE00D495FD /* Assets.xcassets */,
+				CFD576A31CF9BFBE00D495FD /* LaunchScreen.storyboard */,
+				CFD576A61CF9BFBE00D495FD /* Info.plist */,
+				CFD5769E1CF9BFBE00D495FD /* ChessHack2.xcdatamodeld */,
+				CFD576921CF9BFBE00D495FD /* Supporting Files */,
+			);
+			path = ChessHack2;
+			sourceTree = "<group>";
+		};
+		CFD576921CF9BFBE00D495FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD576931CF9BFBE00D495FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFD576CA1CF9C08100D495FD /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				CFD576BA1CF9C04C00D495FD /* Map.h */,
+				CFD576BB1CF9C04C00D495FD /* Map.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		CFD576CB1CF9C0A800D495FD /* Piece */ = {
+			isa = PBXGroup;
+			children = (
+				CFD576AC1CF9C04C00D495FD /* Advisor.h */,
+				CFD576AD1CF9C04C00D495FD /* Advisor.m */,
+				CFD576B01CF9C04C00D495FD /* Cannon.h */,
+				CFD576B11CF9C04C00D495FD /* Cannon.m */,
+				CFD576B21CF9C04C00D495FD /* Chariot.h */,
+				CFD576B31CF9C04C00D495FD /* Chariot.m */,
+				CFD576B61CF9C04C00D495FD /* Horse.h */,
+				CFD576B71CF9C04C00D495FD /* Horse.m */,
+				CFD576B81CF9C04C00D495FD /* King.h */,
+				CFD576B91CF9C04C00D495FD /* King.m */,
+				CFD576BC1CF9C04C00D495FD /* Piece.h */,
+				CFD576BD1CF9C04C00D495FD /* Piece.m */,
+				CFFFC5951CF9E8BD001AB39E /* Queen.h */,
+				CFFFC5961CF9E8BD001AB39E /* Queen.m */,
+			);
+			name = Piece;
+			sourceTree = "<group>";
+		};
+		CFD576CC1CF9C0F200D495FD /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				CFD576BE1CF9C04C00D495FD /* Player.h */,
+				CFD576BF1CF9C04C00D495FD /* Player.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD5768E1CF9BFBE00D495FD /* ChessHack2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD576A91CF9BFBE00D495FD /* Build configuration list for PBXNativeTarget "ChessHack2" */;
+			buildPhases = (
+				CFD5768B1CF9BFBE00D495FD /* Sources */,
+				CFD5768C1CF9BFBE00D495FD /* Frameworks */,
+				CFD5768D1CF9BFBE00D495FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessHack2;
+			productName = ChessHack2;
+			productReference = CFD5768F1CF9BFBE00D495FD /* ChessHack2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD576871CF9BFBE00D495FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TechKid;
+				TargetAttributes = {
+					CFD5768E1CF9BFBE00D495FD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CFD5768A1CF9BFBE00D495FD /* Build configuration list for PBXProject "ChessHack2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD576861CF9BFBE00D495FD;
+			productRefGroup = CFD576901CF9BFBE00D495FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD5768E1CF9BFBE00D495FD /* ChessHack2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD5768D1CF9BFBE00D495FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD576A51CF9BFBE00D495FD /* LaunchScreen.storyboard in Resources */,
+				CFD576A21CF9BFBE00D495FD /* Assets.xcassets in Resources */,
+				CFD5769D1CF9BFBE00D495FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD5768B1CF9BFBE00D495FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD576C81CF9C04C00D495FD /* Piece.m in Sources */,
+				CFD576C71CF9C04C00D495FD /* Map.m in Sources */,
+				CFFFC5971CF9E8BD001AB39E /* Queen.m in Sources */,
+				CFD576C61CF9C04C00D495FD /* King.m in Sources */,
+				CFD576C91CF9C04C00D495FD /* Player.m in Sources */,
+				CFD576C41CF9C04C00D495FD /* GameObject.m in Sources */,
+				CFD576C21CF9C04C00D495FD /* Cannon.m in Sources */,
+				CFD576C31CF9C04C00D495FD /* Chariot.m in Sources */,
+				CFD576C51CF9C04C00D495FD /* Horse.m in Sources */,
+				CFD5769A1CF9BFBE00D495FD /* ViewController.m in Sources */,
+				CFD576971CF9BFBE00D495FD /* AppDelegate.m in Sources */,
+				CFD576C11CF9C04C00D495FD /* Advisor.m in Sources */,
+				CFD576A01CF9BFBE00D495FD /* ChessHack2.xcdatamodeld in Sources */,
+				CFD576941CF9BFBE00D495FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFD5769B1CF9BFBE00D495FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD5769C1CF9BFBE00D495FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFD576A31CF9BFBE00D495FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD576A41CF9BFBE00D495FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD576A71CF9BFBE00D495FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFD576A81CF9BFBE00D495FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFD576AA1CF9BFBE00D495FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChessHack2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = techkid.ChessHack2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFD576AB1CF9BFBE00D495FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChessHack2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = techkid.ChessHack2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD5768A1CF9BFBE00D495FD /* Build configuration list for PBXProject "ChessHack2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD576A71CF9BFBE00D495FD /* Debug */,
+				CFD576A81CF9BFBE00D495FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD576A91CF9BFBE00D495FD /* Build configuration list for PBXNativeTarget "ChessHack2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD576AA1CF9BFBE00D495FD /* Debug */,
+				CFD576AB1CF9BFBE00D495FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFD5769E1CF9BFBE00D495FD /* ChessHack2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFD5769F1CF9BFBE00D495FD /* ChessHack2.xcdatamodel */,
+			);
+			currentVersion = CFD5769F1CF9BFBE00D495FD /* ChessHack2.xcdatamodel */;
+			path = ChessHack2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFD576871CF9BFBE00D495FD /* Project object */;
+}
